@@ -44,7 +44,7 @@ We use two heaps to maintain the order:
 2. Move the max element from `leftMaxHeap` to `rightMinHeap`.
 3. Balance sizes: If `rightMinHeap` has more elements, move min to `leftMaxHeap`.
 
-This ensures the largest of the smaller half and the smallest of the larger half are always accessible in O(1) time, and balancing keeps the data ready for median calculation.
+This way, the largest of the smaller half and the smallest of the larger half are always accessible in O(1) time, and their balance helps in calculating the median efficiently.
 
 ---
 
@@ -53,12 +53,12 @@ This ensures the largest of the smaller half and the smallest of the larger half
 - **addNum:** O(log n) — for heap insertion and balancing
 - **findMedian:** O(1) — peek from heap tops
 
----
-
 ## 💾 Space Complexity
 
 - **O(n)** — storing n elements across both heaps
 
 ---
 
-### 📌 Tags: `Heap`, `Two Heaps`, `PriorityQueue`, `Data Stream`, `Median`
+## 🏷 Tags
+
+`Heap` `PriorityQueue` `Median` `DataStream` `Two Heaps`
