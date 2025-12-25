@@ -29,9 +29,9 @@ dp2[i] = 1 + max(dp1[i-1] if nums2[i]≥nums1[i-1], dp2[i-1] if nums2[i]≥nums2
 ---
 
 ## Complexity
-| Time | Space |
-|------|-------|
-| **O(n)** | **O(1)** |
+| Time | Space    |
+|------|----------|
+| **O(n)** | **O(n)** |
 
 ---
 
